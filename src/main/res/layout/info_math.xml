@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/bg_dialog"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_title"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:background="@drawable/polostod"
+                android:text="Settings"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                />
+<!--
+            <Button
+                android:id="@+id/close_button_opt"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="160dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/exit_btn"
+                />-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="262dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView2"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/lR"
+                >
+                -->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/lr1"
+                >
+
+                <TextView
+                    android:id="@+id/txt_authorize"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:scrollbars="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/author"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/sliding_text_marquee"
+            android:text="@string/adp"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
