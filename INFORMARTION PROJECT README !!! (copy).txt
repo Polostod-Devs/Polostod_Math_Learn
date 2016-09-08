@@ -1,14 +1,19 @@
-// Started project on 1 Feb 2016
+//* Started project on 10 Sept 2016
 
-WIP = Work In Progress
+*tag project of status below
+  WIP = Work In Progress
+  P = Pending
+  D = Done
+  R = Rebuild & fix Error
 
-Editting time on time more than faster
-Move original string to values/string.xml
-Added information author apps and personal dev
-Added more language like Indonesia , Sunda (WIP Ahmad , Ziko)
-Added folder for sound game opening and press button (Sound Still not configure)
-NB:
-Important added Icon Applications !!!
+when finish the commited in github, replace a note of your history what have you done
+example :
+  
+  # date of project doing
+  - Task Of Project (tag project)
+  
+  // tasks of project can be added more than one
+  
+**/
 
-//Last Edit by SatrioDwiPrabowo
 
