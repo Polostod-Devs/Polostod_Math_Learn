@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Math Learn</string>
+    <string name="adp">Copyright © 2016 PolostodDev - ADP2014</string>
+    <string name="author"><b>Polostod Developers Mempersembahkan</b>\n Aplikasi yang dibuat pada tahun 2016 \n untuk memenuhi Tugas Akhir. \n
+    Aplikasi dikembangkan dengan bantuan tim Polostod Developers ini ditujukan kepada anak - anak \n untuk sarana belajar dasar menghitung sambil bermain. \n
+    sangat diharapkan untuk megirimkan kritik dan saran \n guna untuk memudahkan kami dalam pengembangan game ini.\n
+    <a href="https://www.polostod-developers.com/produk/mathlearn/">https://www.polostod-developers.com</a></string>
+    <string name="confirm_exit">Konfirmasi Keluar ?</string>
+    <string name="confirm_delete">konfirmasi Hapus ?</string>
+    <string name="confirm_exit2">Apa anda yakin ingin keluar aplikasi ?</string>
+    <string name="confirm_delete2">Apa anda yakin ingin menghapus score ?</string>
+    <string name="confirm_yes">Yes</string>
+    <string name="confirm_no">No</string>
+    <string name="splash_loading">Loading ...</string>
+
+    <string name="title_activity_easy22">Easy22</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">1754361511453281</string>
+    <string name="music">Music</string>
+    <string name="settings">Pengaturan</string>
+    <string name="highscore">Nilai Tertinggi</string>
+    <string name="share">Bagikan</string>
+    <string name="profile">Profil</string>
+    <string name="type_your_name">Masukkan nama anda :</string>
+    <string name="ok">OK</string>
+    <string name="leveleasy">Easy</string>
+    <string name="levelmedium">Medium</string>
+    <string name="levelhard">Hard</string>
+    <string name="scoreNotFound">Tidak ada HighScore</string>
+    <string name="heartValidate">hati anda habis</string>
+    <string name="timeUp">waktu habis!!</string>
+    <string name="time">00:02:00</string>
+    <string name="smiley1">sangat kurang ! Ayo semangat belajar ^^</string>
+    <string name="smiley2">Kurang ! Lebih Semangat Lagi!</string>
+    <string name="smiley3">Bagus ^^</string>
+    <string name="smiley4">Sangat baik !</string>
+    <string name="smiley5">Luar Biasa ! Kamu sangat pintar ^^</string>
+    <string name="sharedScore">score telah dibagikan!</string>
+    <string name="captionShareScore">Testing</string>
+    <string name="facebookvalidate">Anda Belum login ke facebook! silahkan login untuk melihat profil</string>
+    <string name="getIdJson">"User ID : "</string>
+    <string name="getNameJson">"Name   : "</string>
+    <string name="getEmailJson">"Email   : "</string>
+</resources>

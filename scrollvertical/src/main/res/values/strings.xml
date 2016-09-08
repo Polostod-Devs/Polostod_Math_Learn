@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Scrollvertical</string>
+    <string name="vmtvText">This is an example of how this vertical marquee textview works.\nThis is an example of how this vertical marquee textview works.\nThis is an example of how this vertical marquee textview works.\nThis is an example of how this vertical marquee textview works.</string>
+
+</resources>

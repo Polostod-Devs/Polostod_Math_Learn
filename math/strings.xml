@@ -1,0 +1,8 @@
+<resources>
+    <string name="author"><b>Polostod Developers Present</b>\n<b>Main Developers</b>\n\nZiko Surya Lesmana\nAhmad Nasrullah\nAditya Pratama\nSatrio Dwi Prabowo\nMuhammad Arif Munazir\nAnggia Dini</string>
+    <string name="confirm_exit">Confirm Exit ?</string>
+    <string name="confirm_exit2">Do you really want to exit ?</string>
+    <string name="confirm_yes">Yes</string>
+    <string name="confirm_no">No</string>
+    <string name="splash_loading">Loading ...</string>
+</resources>

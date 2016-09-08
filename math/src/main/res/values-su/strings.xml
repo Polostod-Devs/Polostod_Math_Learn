@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Math Kids</string>
+    <string name="adp">Copyright © 2016 PolostodDev - ADP2014</string>
+    <string name="author"><b>Polostod Developers Present</b>\n Thanks to all Friends for help</string>
+    <string name="confirm_exit">Confirm Exit ?</string>
+    <string name="confirm_exit2">Do you really want to exit ?</string>
+    <string name="confirm_yes">Yes</string>
+    <string name="confirm_no">No</string>
+    <string name="splash_loading">Loading ...</string>
+
+    <string name="title_activity_easy22">Easy22</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
