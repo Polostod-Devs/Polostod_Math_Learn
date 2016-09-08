@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Polostod_Math_Learn.iml" filepath="$PROJECT_DIR$/Polostod_Math_Learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/math/math.iml" filepath="$PROJECT_DIR$/math/math.iml" />
+    </modules>
+  </component>
+</project>
