@@ -1,9 +1,8 @@
 <resources>
     <string name="app_name">Math Learn</string>
-    <string name="adp">Copyright © 2016 PolostodDev - ADP2014</string>
-    <string name="author"><b>Polostod Developers Mempersembahkan</b>\n Aplikasi yang dibuat pada tahun 2016 \n untuk memenuhi Tugas Akhir. \n
-    Aplikasi dikembangkan dengan bantuan tim Polostod Developers ini ditujukan kepada anak - anak \n untuk sarana belajar dasar menghitung sambil bermain. \n
-    sangat diharapkan untuk megirimkan kritik dan saran \n guna untuk memudahkan kami dalam pengembangan game ini.\n
+    <string name="polostod_app_copyright">Copyright © 2016 Polostod Developers</string>
+    <string name="author"><b>Polostod Developers Mempersembahkan</b>\n Permainan yang dibuat pada tahun 2016 \nditujukan kepada anak - anak \n untuk sarana belajar dasar menghitung sambil bermain. \n
+    sangat diharapkan untuk megirimkan kritik dan saran \n guna untuk memudahkan kami dalam pengembangan permainan ini.\n
     <a href="https://www.polostod-developers.com/produk/mathlearn/">https://www.polostod-developers.com</a></string>
     <string name="confirm_exit">Konfirmasi Keluar ?</string>
     <string name="confirm_delete">konfirmasi Hapus ?</string>

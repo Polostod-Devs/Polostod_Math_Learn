@@ -19,7 +19,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_title"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="1">
             <TextView
                 android:id="@+id/title"
                 android:layout_width="wrap_content"
@@ -32,12 +33,12 @@
 
             <Button
                 android:id="@+id/close_button_opt"
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_marginLeft="130dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="110dp"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/exit_btn"
-                />
+                android:layout_weight="0.50" />
 
         </LinearLayout>
 
