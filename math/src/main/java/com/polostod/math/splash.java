@@ -43,8 +43,8 @@ public class splash  extends Activity implements LoadingTask.LoadingTaskFinished
             }
         });
         ProgressBar progressBar = (ProgressBar) findViewById(R.id.activity_splash_progress_bar);
-        // Start your loading
-        new LoadingTask(progressBar, this).execute("www.google.co.uk"); // Pass in whatever you need a url is just an example we don't use it in this tutorial
+        // Start
+        new LoadingTask(progressBar, this).execute("www.polostod-developers.com"); // Loading with get data need implement
         progressBar.setScaleY(0.7f);
     }
 
