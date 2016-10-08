@@ -41,10 +41,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     JSONObject response;
     TextView userT;
     String user;
-    /*private int[] rawFiles = {R.raw.ambilkanbulan,R.raw.lihatkebunku,R.raw.ketilang,R.raw.tw1,+
-            R.raw.kelinciku,R.raw.tukangkayu,R.raw.becak,R.raw.bergembira,R.raw.desaku, +
-            R.raw.kasihibu, R.raw.pelangi,R.raw.pemandangan,R.raw.soleram,R.raw.topisayabundar,R.raw.taritepuktangan};*/
-//  Music still force close~
+
+    /*Music has been fixed*/
     @Override
     protected void onStart() {
         super.onStart();
@@ -56,11 +54,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        /*sp = PreferenceManager.getDefaultSharedPreferences(this);
-        ed =sp.edit();
-        */
-
         SharedPreferences share = PreferenceManager.getDefaultSharedPreferences(this);
         user = share.getString("object","");
         userT = (TextView) findViewById(R.id.txt_user);
@@ -70,8 +63,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }else{
             userT.setVisibility(View.INVISIBLE);
         }
-
-
             currentV = Build.VERSION.SDK_INT;
             final int flags = View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                                 | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
@@ -160,21 +151,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             );
         }
     }
-
-    //still test
-   /* @Override
-    protected void onPause() {
-        super.onPause();
-        stopMusic();
-    }*/
-
-    /*
-    @Override
-    protected void onStop() {
-        super.onStop();
-//        stopMusic();
-    }*/
-
     @Override
     protected void onResume() {
         super.onResume();
@@ -205,7 +181,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
 
-        // Added auto rotation (Try 1)
+        // Added auto rotation Fixed
      public static void setAutoOrientationEnabled(Context context, boolean enabled)
      {
          Settings.System.putInt( context.getContentResolver(), Settings.System.ACCELEROMETER_ROTATION, enabled ? 1 : 0);
@@ -273,14 +249,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             }else{
                 userT.setVisibility(View.INVISIBLE);
             }
-
-//            user_name.setText(response.get("name").toString());
-//            profile_pic_data = new JSONObject(response.get("picture").toString());
-//            profile_pic_url = new JSONObject(profile_pic_data.getString("data"));
-
-           /* Picasso.with(this).load(profile_pic_url.getString("url"))
-                    .into(user_picture);*/
-
         } catch (Exception e){
             e.printStackTrace();
         }
