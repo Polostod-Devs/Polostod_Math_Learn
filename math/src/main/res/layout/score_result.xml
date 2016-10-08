@@ -65,7 +65,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAppearance="@layout/messenger_button_send_blue_small"
         android:text="Medium Text"
         android:id="@+id/level"
         android:visibility="invisible"
